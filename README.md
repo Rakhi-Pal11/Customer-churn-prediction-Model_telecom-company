@@ -128,3 +128,13 @@ Final Score
  'GradientBoostingClassifier': [0.844630629931458, 0.010723107447558198],
  'VotingClassifier': [0.8468096379573085, 0.010887508320460332]}
 
+```
+* Final confusion matrix we got:
+<img src= "https://github.com/Pradnya1208/Telecom-Customer-Churn-prediction/blob/main/output/confusion%20matrix.PNG?raw=true" width = "425" />
+
+>From the confusion matrix we can see that: There are total 1383+166=1549 actual non-churn values and the algorithm predicts 1400 of them as non churn and 149 of them as churn. While there are 280+280=561 actual churn values and the algorithm predicts 280 of them as non churn values and 281 of them as churn values.
+## Optimizations
+
+We could use Hyperparamete Tuning or Feature enginnering methods to improve the accuracy further.
+
+
